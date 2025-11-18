@@ -3,6 +3,19 @@ title: 我的数字宫殿
 ---
 在 Obsidian 中，你应该在 **`content` 文件夹**中进行所有笔记的添加和修改。
 
+```python
+# 进入 quartz 子模块提交更改
+cd quartz
+git add .
+git commit -m "更新Quartz配置"
+cd ..
+
+# 回到主项目提交
+git add .
+git commit -m "更新网站标题和配置"
+git push origin main
+```
+
 ## 具体位置
 
 ### 1. 打开正确的文件夹
